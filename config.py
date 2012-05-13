@@ -2,9 +2,9 @@
 
 # default username and password
 utorrentcfg = {
-	"host" : "default_hostname:1000",
-	"login" : "default_login",
-	"password" : "default_password",
-	"api" : "", # linux, desktop (2.x), falcon (3.x)
-	"default_torrent_format" : "{hash} {status} {progress}% {size} {dl_speed} {ul_speed} {ratio} {peer_info} eta: {eta} {name} {label}",
+	u"host" : u"default_hostname:1000",
+	u"login" : u"default_login",
+	u"password" : u"default_password",
+	u"api" : u"", # linux, desktop (2.x), falcon (3.x)
+	u"default_torrent_format" : u"{hash} {status} {progress}% {size} {dl_speed} {ul_speed} {ratio} {peer_info} eta: {eta} {name} {label}",
 }
