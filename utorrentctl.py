@@ -15,14 +15,15 @@
     along with this program.  If not, see <http://www.gnu.org/licenses/>.
 """
 
+from __future__ import print_function
+from __future__ import division
+
 """
     utorrentctl - uTorrent cli remote control utility and library
     
     Ported to Python 2.x from original Python 3.x code
 """
 
-from __future__ import print_function
-from __future__ import division
 from io import open
 from hashlib import sha1
 from collections import OrderedDict
